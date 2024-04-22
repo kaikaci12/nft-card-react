@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 25px;
+  border-radius: 15px;
+  background: var(--very-dark-blue-card-bg, #15263f);
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.value-and-time {
+  display: flex;
+  justify-content: space-between;
+}
+.value-and-time::after {
+  background: var(--very-dark-blue-line, #2e405a);
+  width: 100%;
+}
+.value,
+.time {
+  display: flex;
+  gap: 6px;
+}
+.creator-container {
+  display: flex;
+  gap: 16px;
+}

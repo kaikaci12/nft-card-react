@@ -1,6 +1,11 @@
-import Props from "./Props";
+import Card from "./Card";
+
 function App() {
-  return;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 }
 
 export default App;
