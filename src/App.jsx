@@ -1,9 +1,9 @@
-import Card from "./Card";
+import NftCard from "./NFT.jsx";
 
 function App() {
   return (
     <div>
-      <Card />
+      <NftCard />
     </div>
   );
 }

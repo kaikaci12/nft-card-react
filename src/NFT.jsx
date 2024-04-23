@@ -1,7 +1,11 @@
+import "./Card.css";
+import nftImg from "./images/image-equilibrium.jpg";
+import creatorProfile from "./images/image-avatar.png";
+
 function CreateCard() {
   return (
     <div className="card-container">
-      <img src="../images/image-equilibrium.jpg" alt="equlibrium-img" />
+      <img src={nftImg} alt="equlibrium-img" />
       <div className="card-info">
         <h2>Equilibrium #3429</h2>
         <p>Our Equilibrium collection promotes balance and calm.</p>
@@ -52,10 +56,10 @@ function CreateCard() {
           </div>
         </div>
         <div className="creator-container">
-          <img src="../images/image-avatar.png" alt="creator-img" />
+          <img src={creatorProfile} alt="creator-img" />
           <div className="creator-name">
-            <span class="s">Creation of</span>
-            <span>Jules Wyvern</span>
+            <span className="span1">Creation of </span>
+            <span className="span2">Jules Wyvern</span>
           </div>
         </div>
       </div>

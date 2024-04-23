@@ -5,6 +5,8 @@
   border-radius: 15px;
   background: var(--very-dark-blue-card-bg, #15263f);
   box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  width: 327px;
+  height: 543px;
 }
 .card-info {
   display: flex;
@@ -14,11 +16,11 @@
 .value-and-time {
   display: flex;
   justify-content: space-between;
-}
-.value-and-time::after {
-  background: var(--very-dark-blue-line, #2e405a);
+  border-bottom: 1px solid #2e405a;
   width: 100%;
+  padding-bottom: 16px;
 }
+
 .value,
 .time {
   display: flex;
@@ -27,4 +29,46 @@
 .creator-container {
   display: flex;
   gap: 16px;
+}
+h2 {
+  margin-top: 24px;
+  color: var(--White, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 22px;
+  font-weight: 600;
+}
+p {
+  color: var(--Soft-Blue, #8bacd9);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.price {
+  color: var(--Cyan, #00fff8);
+  font-size: 15px;
+  font-weight: 600;
+}
+.time span {
+  color: var(--Soft-Blue, #8bacd9);
+  font-size: 15px;
+  font-weight: 400;
+}
+.creator-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.creator-container img {
+  width: 33px;
+  border: 1px solid var(--White, #fff);
+  border-radius: 33px;
+}
+.span1 {
+  color: var(--Soft-Blue, #8bacd9);
+  font-size: 15px;
+  font-weight: 400;
+}
+.span2 {
+  color: var(--White, #fff);
 }
